@@ -1,0 +1,636 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaT-Thin.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+/* part 1 */
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+}
+
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav{
+    display: flex;
+    flex: 3;
+}
+
+nav a{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 42px;
+    text-transform: capitalize;
+}
+
+.logo-img img{
+    width: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    top: 18px;
+}
+
+.logo-text{
+    margin-top: -8px;
+    margin-left: 13px;
+}
+.logo-text a{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo-text-underline{
+    width: 100px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-left: 11px;
+}
+
+header .contact-us{
+    color: #1cb88b;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    background: #000;
+    border: none;
+
+    padding: 6px 10px;
+    border: 2px solid #1cb88b;
+    border-radius: 10px;
+
+    position: relative;
+    right: 15%;
+    /* отступ от кнопки - 15%, значит все элементы должны быть отодвинуты от правого края на 15% */
+}
+
+/* OUR WORKS HERE */
+.our-works{
+    background-color: #ebebeb;
+    padding-top: 28px;
+}
+.our-work-title{
+    color: #363636;
+    font-family: "Proxima Nova";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+
+    width: 236px;
+    height: 111px;
+}
+
+.our-work-title-underline{
+    width: 370px;
+    height: 11px;
+    background-color: #363636;
+
+    margin-top: 9px;
+}
+.categories{
+    display: flex;
+
+    margin-top: 29px;
+}
+.categories div{
+    width: 90px;
+    height: 36px;
+    border: 2px solid #1cb88b;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+}
+.categories a{
+    color: #1cb88b;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+
+    text-transform: capitalize;
+}
+.categories-all{
+    background-color: #1cb88b;
+}
+.categories-all a{
+    color: white;
+}
+
+.projects{
+    margin-top: 59px;
+}
+.project{
+    display: flex;
+    margin-top: 53px;
+}
+
+.project-img{
+    width: 857px;
+    height: 601px;
+    background-color: #cccccc;
+}
+.project-text{
+    width: 371px;
+    height: 601px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 86px;
+}
+
+.project-name{
+    width: 371px;
+    height: 70px;
+    background-color: #ffffff;
+
+    color: #1cb88b;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    padding-top: 30px;
+}
+.project-description{
+    color: #898989;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.project-date{
+    color: #898989;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.more{
+    margin-top: 48px;
+    vertical-align: baseline;
+
+    padding-bottom: 58px;
+}
+.more-text{
+    color: #1cb88b;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 400;   
+    margin-left: 20px;
+               
+}
+
+/* part 2 */
+.quote{
+    height: 351px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.quote_text{
+    width: 758px;
+    height: 114px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+
+    margin: 0 auto;
+	padding-top: 59px;
+	text-align: center;
+}
+
+.quote_author{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px; 
+}
+
+.quote_author > img{
+    display: block;
+    margin: 0 auto;
+}
+
+.quote_author .name{
+    height: 11px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 16px; /* шрифт нужно поменять => нужно поменять ширину имени в quote_author*/
+    text-transform: uppercase;
+
+    text-align: center;
+	font-weight: 700;
+    margin-top: 9px;
+}
+
+.dots{
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/* лень делать по-умному */
+/* .white_dot{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+
+    border-width: 10px;
+    border-radius: 5px; 
+} */
+
+.our_team{
+    height: 916px;
+    width: 74%;
+    margin:0 auto;
+}
+.our_team_title{
+    width: 186px;
+    height: 111px;
+    color: #363636;
+    font-family: "Proxima Nova";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 99px;
+}
+.our_team_line{
+    width: 370px;
+    height: 11px;
+    background-color: #363636;
+    margin-top: 9px;
+}
+
+.our_team_persons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 79px;
+    justify-content: space-between;
+}
+
+.imgs > .circle{
+    background-color: #cccccc;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+.our_team_persons > div{
+    width: 360px;
+}
+
+.social_imgs{
+    position: relative;
+    top: -110px;
+    left: 140px;
+}
+.social_imgs img{
+    margin-right: 10px;
+}
+
+.our_team_persons  .text{
+    margin-left: 99px;
+}
+
+.our_team_persons .name{
+    /* width: 182px;
+    height: 13px; */
+    color: #1cb88b;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.our_team_persons .position{
+    /* width: 54px;
+    height: 13px; */
+    color: #898989;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+	font-weight: 500;
+    margin-top: 15px;
+}
+
+.our_team_persons .about_person{
+    width: 257px;
+    height: 99px;
+    color: #363636;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+
+    margin-top: 27px;
+}
+
+.view_more{
+    margin-top: 48px;
+}
+
+.our_features{
+	margin-top: -100px;
+    height: 351px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.our_features_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: 70px;
+}
+
+
+.our_features_wrapper img{
+    display: block;
+    margin: 0 auto;
+}
+
+.our_features_num{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 72px;
+    font-weight: 400;
+
+    margin-top: 43px;
+}
+
+.our_features_title{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+}
+
+/* MY CSS */
+
+.our-skills{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.our-skills-title{
+	width: 241px;
+	height: 110px;
+	color: #363636;
+	font-family: "Proxima Nova";
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.underline-title{
+	width: 370px;
+	height: 11px;
+	background-color: #363636;
+	margin-top: 12px;
+	
+}
+
+.wrapper{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.diagrams{
+	margin-top: 64px;
+	display: flex;
+	flex-direction: row;
+}
+
+/* .diagrams img{
+	width: auto;
+	height: auto;
+} */
+
+.diagrams div{
+	padding: 15px;
+}
+
+.special-skills{
+	margin-top: 59px;
+	margin-left: 10px;
+}
+
+.special-skills div{
+	padding: 15px;
+}
+
+.special-skills .box-2{
+	padding: 0px;
+	font-family: "Proxima Nova";
+	font-weight: 500;
+	color: #898989;
+}
+
+.special-skills span{
+	vertical-align: 5px;
+	font-family: "Proxima Nova";
+	font-weight: 700;
+	color: #898989;
+}
+
+.special-skills img{
+	margin-right: 15px;
+}
+
+.special-skills .box-1 span{
+	color:  #1cb88b;
+}
+
+.about-our-skills{
+	width: 50%;
+	margin-left: 100px;
+	margin-top: -120px;
+}
+
+.about-our-skills .title{
+	color: #1cb88b;
+	font-family: "Proxima Nova";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-our-skills .content{
+	/* Style for "Lorem ipsu" */
+	width: 100%;
+	color: #363636;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.contact-us-email{
+	/* Style for "bg" */
+	margin-top: 60px;
+	height: 81px;
+	background-color: #1cb88b;
+}
+
+.bg{
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.email{
+	/* Style for "Enter your" */
+	width: 356px;
+	height: 33px;
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-weight: 400;
+	font-size: 36px;
+	border: none;
+	background-color:  #1cb88b;
+	outline: none;
+}
+
+::-webkit-input-placeholder {color: #ffffff;  font-weight: 400;}
+::-moz-placeholder          {color: #ffffff;  font-weight: 400;}/* Firefox 19+ */
+:-moz-placeholder           {color: #ffffff;  font-weight: 400;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #ffffff;  font-weight: 400;}
+
+
+.underline-email{
+	/* Style for "Shape 1" */
+	width: 370px;
+	height: 1px;
+	background-color: #ffffff;
+	margin-left: 21px;
+}
+
+.button-contact{
+	background-color: #ffffff;
+	color: #1cb88b;
+	font-family: "Proxima Nova";
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px 13px ;
+	margin-top: 20px;
+	margin-left: 90px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	  
+}
+
+footer{
+	height: 230px;
+	background-color: #252525;
+}
+.footer-img{
+	width: 45%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	padding-top: 40px;
+	
+}
+
+.company-name{
+	/* Style for "tusovka" */
+	text-align: center;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 30px ;
+}
+
+.copyright , .author-design{
+	/* Style for "© 2020 tus" */
+	text-align: center;
+	color: #818181;
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.to-top{
+	display: block;
+	margin-top: 19px;
+}
+
+.to-top img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
